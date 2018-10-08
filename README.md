@@ -19,6 +19,7 @@ This Tachyons design pattern allows developers to see which elements are being c
 Additionally, to easily read what has changed for each screen size, it is recommended to order class names by their purpose, going form structural elements to cosmetic, and then class names relevant to child elements.
 ``` HTML
 <div class='[ fixed left-0 top-0 vw-100 pa1 white bg-black flex flex-row items-centered ]'></div>
+```
 
 ## Build Setup
 
