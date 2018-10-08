@@ -1,12 +1,14 @@
 <template>
 	<div
 	>
-		<div
-		v-if='active'
-		class='[ fixed top-0 left-0 vh-100 w-100 bg-white ]'
-		>
-			OPEN NAV
-		</div>
+		<transition name='slide'>
+			<div
+			v-if='active'
+			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 ]'
+			>
+				OPEN NAV
+			</div>
+		</transition>
 
 		<div
 		@click='toggleActive'
@@ -31,7 +33,7 @@
 export default {
 	data: function () {
 		return {
-			active: true
+			active: false
 		}
 	},
 	methods: {
@@ -41,3 +43,15 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+	.slide-enter-active,
+	.slide-leave-active {
+		transition: 0.3s ease all;
+	}
+
+	.slide-enter,
+	.slide-leave-to {
+		transform: translateY(100vh) translateX(100vw);
+	}
+</style>
