@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "tachyons": "^4.11.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
