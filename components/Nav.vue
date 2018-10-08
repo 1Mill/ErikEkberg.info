@@ -9,8 +9,8 @@
 		</div>
 
 		<div
-		class='[ fixed bottom-2 right-2 z-1 ]'
 		@click='toggleActive'
+		class='[ fixed bottom-2 right-2 pa2 ]'
 		>
 			<div
 			v-if='active'
