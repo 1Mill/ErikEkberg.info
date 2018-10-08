@@ -1,5 +1,7 @@
 <template>
-	<div>
+	<div
+	class='[ tc ]'
+	>
 		<nuxt/>
 	</div>
 </template>
