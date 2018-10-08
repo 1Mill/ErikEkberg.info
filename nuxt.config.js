@@ -49,7 +49,16 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
+    }
+  },
+
+  /*
+  ** Configure webpack to pick up file changes
+  */
+  watchers: {
+    webpack: {
+      poll: true
     }
   }
 }
