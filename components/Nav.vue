@@ -4,12 +4,13 @@
 		<transition name='slide'>
 			<div
 			v-if='active'
-			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 flex flex-column justify-start ]'
+			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 flex flex-column items-center justify-start ]'
 			>
 				<router-link
 				v-for='link in links' :key='link.name'
 				:to='link.path'
 				@click.native='toggleActive'
+				class='[ w5 mt3 pv3 tl black bb b--moon-gray no-underline ]'
 				>
 					{{ link.name }}
 				</router-link>
