@@ -26,7 +26,7 @@
 
 		<div
 		@click='toggleActive'
-		class='[ fixed bottom-2 right-2 pa2 ]'
+		class='[ fixed bottom-2 right-2 pv2 ph3 bg-white ba br2 b--light-gray ]'
 		>
 			<div
 			v-if='active'
