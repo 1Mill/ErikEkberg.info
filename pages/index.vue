@@ -20,7 +20,6 @@
 export default {
 	head: function () {
 		return {
-			title: 'Erik Ekberg',
 			meta: [
 				{ hid: 'description', name: 'description', content: 'Erik Ekberg, a Ruby and Vue full-stack developer who can help you weave bold front-end designs with back-end technical know-how.'}
 			]
