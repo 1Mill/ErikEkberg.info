@@ -55,7 +55,8 @@ export default {
 						'Docker',
 						'JavaScript',
 						'Axios',
-						'Ajax'
+						'Ajax',
+						'Yarn'
 					]
 				},
 				{
