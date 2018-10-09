@@ -74,6 +74,17 @@ export default {
 					]
 				},
 				{
+					name: 'Nuxt SSR',
+					link: 'https://github.com/1Mill/nuxt-ssr-example',
+					details: [
+						'Nuxt',
+						'Axois',
+						'Vue',
+						'JavaScript',
+						'Docker'
+					]
+				},
+				{
 					name: 'GSA',
 					link: 'http://cwugsa.org',
 					details: [
