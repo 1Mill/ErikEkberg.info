@@ -43,9 +43,7 @@ export default {
 						'SCSS',
 						'HTML',
 						'CSS',
-						'LESS',
-						'Mobile-first',
-						'Reactive'
+						'LESS'
 					]
 				},
 				{
