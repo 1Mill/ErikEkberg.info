@@ -51,7 +51,7 @@ export default {
 			links: [
 				{ name: 'Home', path: '/' },
 				{ name: 'Portfolio', path: '/portfolio' },
-				{ name: 'Tools', path: '/tools' },
+				{ name: 'Know-how', path: '/know-how' },
 			]
 		}
 	},
