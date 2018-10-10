@@ -47,6 +47,16 @@ export default {
 					]
 				},
 				{
+					name: '(UX) User Experience',
+					tools: [
+						'Mobile-first',
+						'Heuristics ',
+						'Responsive    ',
+						'Reactive ',
+						'Prototyping  '
+					]
+				},
+				{
 					name: 'Front-end Engineering',
 					tools: [
 						'Nuxt',
