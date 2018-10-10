@@ -14,9 +14,10 @@
 
 			<a
 			:href='job.link' target='_blank'
-			class='[ w-40 lh-copy tl black b no-underline ]'
+			class='[ w-40 lh-copy tl black b no-underline flex flex-row items-center justify-between ]'
 			>
-				{{ job.name }}
+				<span>{{ job.name }}</span>
+				<span>></span>
 			</a>
 		</div>
 	</div>
