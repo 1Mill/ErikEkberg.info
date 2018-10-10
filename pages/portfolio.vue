@@ -17,7 +17,7 @@
 			class='[ w-40 lh-copy tl black b no-underline flex flex-row items-center justify-between ]'
 			>
 				<span>{{ job.name }}</span>
-				<span>></span>
+				<i class='[ ml3 ][ fa fa-chevron-right ]'/>
 			</a>
 		</div>
 	</div>
