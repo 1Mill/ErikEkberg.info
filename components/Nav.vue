@@ -66,7 +66,7 @@ export default {
 <style scoped>
 	.slide-enter-active,
 	.slide-leave-active {
-		transition: 0.5s ease all;
+		transition: 0.35s ease all;
 	}
 
 	.slide-enter,
