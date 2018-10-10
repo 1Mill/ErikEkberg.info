@@ -28,17 +28,15 @@
 		@click='toggleActive'
 		class='[ fixed bottom-2 right-2 pv2 ph3 bg-white ba br2 b--light-gray ]'
 		>
-			<div
+			<i
 			v-if='active'
-			>
-				CLOSE
-			</div>
+			class='[ f4 ][ fas fa-times ]'
+			/>
 
-			<div
+			<i
 			v-else
-			>
-				MENU
-			</div>
+			class='[ f4 ][ fas fa-bars ]'
+			/>
 		</div>
 	</div>
 </template>
