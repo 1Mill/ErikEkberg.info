@@ -73,7 +73,7 @@ export default {
 						'Python',
 						'R',
 						'SAS',
-						'SPSS',
+						'SPSS ',
 						'JASP',
 						'D3'
 					]
