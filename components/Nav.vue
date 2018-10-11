@@ -1,6 +1,5 @@
 <template>
-	<div
-	>
+	<div>
 		<transition name='slide'>
 			<div
 			v-if='active'
