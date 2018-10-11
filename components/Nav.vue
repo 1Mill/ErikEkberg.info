@@ -63,7 +63,7 @@
 export default {
 	data: function () {
 		return {
-			active: true,
+			active: false,
 			links: {
 				external: [
 					{ name: 'GitHub', path: 'https://github.com/1Mill', class: 'fab fa-github' },
