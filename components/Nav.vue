@@ -33,7 +33,7 @@
 					{{ link.name }}
 				</router-link>
 
-				<a href='/'
+				<a href='/Erik-Ekberg.CV.pdf'
 				@click.native='toggleActive'
 				class='[ w5 mt3 pv3 tl black bb b--moon-gray no-underline ]'
 				>
