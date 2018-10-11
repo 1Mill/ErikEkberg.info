@@ -21,6 +21,12 @@ Additionally, to easily read what has changed for each screen size, it is recomm
 <div class='[ fixed left-0 top-0 vw-100 pa1 white bg-black flex flex-row items-centered ]'></div>
 ```
 
+### Tachyon Media Break Points
+
+1. Not small: 768px
+2. Medium: 768px - 1024px
+3. Large: 1024px
+
 ## Build Setup
 
 ``` bash
