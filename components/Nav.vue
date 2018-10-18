@@ -72,6 +72,7 @@ export default {
 
 				internal: [
 					{ name: 'Home', path: '/' },
+					{ name: 'About', path: '/about-me' },
 					{ name: 'Portfolio', path: '/portfolio' },
 					{ name: 'Know-how', path: '/know-how' },
 				]
