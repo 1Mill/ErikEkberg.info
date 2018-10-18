@@ -1,5 +1,5 @@
 <template>
 	<div>
-		Aboue Me
+		About me
 	</div>
 </template>
