@@ -2,6 +2,14 @@
 	<div class='[ pt3 pb5 ba bw1 flex flex-column items-center justify-around ]'>
 		<div
 		v-for='job in jobs' :key='job.name'
+		:style='{ backgroundImage: getImagePath(job.image) }'
+		class='[ w-100 h5 cover ]'
+		>
+			{{ job.name }}
+		</div>
+
+		<div
+		v-for='job in jobs' :key='job.name'
 		class='[ w-100 mv3 ph3 flex flex-row items-center justify-between ]'
 		>
 			<div class='[ w-50 pr2 lh-copy tr br bw1 b--light-gray ]'>
@@ -37,7 +45,8 @@ export default {
 						'Docker',
 						'JavaScript',
 						'GitHub Pages'
-					]
+					],
+					image: 'ErikEkberg.jpg'
 				},
 				{
 					name: 'UX Research (OFFLINE)',
@@ -50,7 +59,8 @@ export default {
 						'AWS',
 						'Nuxt',
 						'Vue'
-					]
+					],
+					image: 'KEHorses.jpg'
 				},
 				{
 					name: 'TI4 Randomizer',
@@ -64,7 +74,8 @@ export default {
 						'JSON API',
 						'GitHub Pages',
 						'R'
-					]
+					],
+					image: 'KEHorses.jpg'
 				},
 				{
 					name: 'Ekberg Sporthorses',
@@ -72,7 +83,8 @@ export default {
 					details: [
 						'AWS',
 						'Ruby on Rails'
-					]
+					],
+					image: 'KEHorses.jpg'
 				},
 				{
 					name: 'Nuxt SSR',
@@ -83,19 +95,25 @@ export default {
 						'Vue',
 						'JavaScript',
 						'Docker'
-					]
+					],
+					image: 'KEHorses.jpg'
 				},
 				{
 					name: 'GSA',
 					link: 'http://cwugsa.org',
 					details: [
 						'Microsoft Sway'
-					]
+					],
+					image: 'KEHorses.jpg'
 				}
 			]
 		}
 	},
 	methods: {
+		getImagePath: function (image) {
+			const path = require('~/assets/images/' + image)
+			return 'url(' + path + ')'
+		},
 		orderDetails: function (list) {
 			return list.sort((a, b) => b.length - a.length || a.localeCompare(b))
 		}
