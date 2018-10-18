@@ -74,7 +74,7 @@ export default {
 					{ name: 'Home', path: '/' },
 					{ name: 'About', path: '/about-me' },
 					{ name: 'Portfolio', path: '/portfolio' },
-					{ name: 'Know-how', path: '/know-how' },
+					{ name: 'Know-how', path: '/know-how' }
 				]
 			}
 		}
