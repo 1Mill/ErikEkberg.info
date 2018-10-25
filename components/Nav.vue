@@ -3,10 +3,10 @@
 		<transition name='slide'>
 			<div
 			v-if='active'
-			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 flex flex-column items-center justify-center ]'
+			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 flex flex-column items-center justify-center ][ bn-ns ]'
 			>
 				<div
-				class='[ w-100 mb3 flex flex-row items-center justify-around ]'
+				class='[ w-100 mb3 flex flex-row items-center justify-around ][ w-40-ns ]'
 				>
 					<a
 					v-for='link in links.external' :key='link.name'
@@ -43,16 +43,16 @@
 
 		<div
 		@click='toggleActive'
-		class='[ fixed bottom-2 right-2 pv2 ph3 bg-white ba br2 b--light-gray ]'
+		class='[ fixed bottom-2 right-2 bg-white ][ top-2-ns ]'
 		>
 			<i
 			v-if='active'
-			class='[ f4 ][ fas fa-times ]'
+			class='[ pv2 ph3 f4 ba br2 b--light-gray ][ fas fa-times ]'
 			/>
 
 			<i
 			v-else
-			class='[ f4 ][ fas fa-bars ]'
+			class='[ pv2 ph3 f4 ba br2 b--light-gray ][ fas fa-bars ]'
 			/>
 		</div>
 	</div>
@@ -96,5 +96,12 @@ export default {
 	.slide-enter,
 	.slide-leave-to {
 		transform: translateY(100vh) translateX(100vw);
+	}
+
+	@media (min-width: 768px) {
+		.slide-enter,
+		.slide-leave-to {
+			transform: translateY(0) translateX(-100vw);
+		}
 	}
 </style>
