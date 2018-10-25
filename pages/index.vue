@@ -1,6 +1,6 @@
 <template>
 	<div
-	class='[ vh-100 ph4 ba bw1 flex flex-column items-center justify-center ][ vh-50-ns w-40-ns ][][ w-30-l ]'
+	class='[ vh-100 ph4 ba bw1 flex flex-column items-center justify-center ][ vh-50-ns w-40-ns ][ w-30-m ][ w-20-l ]'
 	>
 		<h1
 		class='[ mt0 f1 lh-title ]'

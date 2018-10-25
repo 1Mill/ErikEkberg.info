@@ -6,7 +6,7 @@
 			class='[ fixed top-0 left-0 vh-100 w-100 bg-white bt bl bw1 flex flex-column items-center justify-center ][ bn-ns ]'
 			>
 				<div
-				class='[ w-100 mb3 flex flex-row items-center justify-around ][ w-40-ns ]'
+				class='[ w-100 mb3 flex flex-row items-center justify-around ][ w-40-ns ][][ w-20-l ]'
 				>
 					<a
 					v-for='link in links.external' :key='link.name'
@@ -101,7 +101,8 @@ export default {
 	@media (min-width: 768px) {
 		.slide-enter,
 		.slide-leave-to {
-			transform: translateY(0) translateX(-100vw);
+			transform: translateY(0) translateX(0);
+			opacity: 0;
 		}
 	}
 </style>
