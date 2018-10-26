@@ -11,7 +11,7 @@
 		<p
 		class='[ lh-copy tl ]'
 		>
-			Full-stack developer who will help you weave bold front-end designs with back-end technical know-how.
+			Full-stack Ruby & Vue developer who will help you weave bold front-end designs with back-end technical know-how.
 		</p>
 	</div>
 </template>
