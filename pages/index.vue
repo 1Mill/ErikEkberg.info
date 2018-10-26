@@ -1,7 +1,5 @@
 <template>
-	<div
-	class='[ vh-100 ph4 ba bw1 flex flex-column items-center justify-center ][ vh-50-ns w-40-ns ][ w-30-m ][ w-20-l ]'
-	>
+	<div>
 		<h1
 		class='[ mt0 f1 lh-title ]'
 		>
@@ -11,7 +9,10 @@
 		<p
 		class='[ lh-copy tl ]'
 		>
-			Full-stack Ruby & Vue developer who will help you weave bold front-end designs with back-end technical know-how.
+			Full-stack
+			<b>Rails</b> & <b>Vue</b>
+			developer who will help you weave bold front-end designs with back-end technical
+			<router-link to='/know-how'>know-know</router-link>.
 		</p>
 	</div>
 </template>
