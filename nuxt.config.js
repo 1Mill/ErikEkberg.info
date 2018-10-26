@@ -29,7 +29,8 @@ module.exports = {
   css: [
     'tachyons',
     '@fortawesome/fontawesome-free/css/all.min.css',
-    '~/assets/css/generic.fonts.css'
+    '~/assets/css/generic.fonts.css',
+    '~/assets/css/elements.a.css'
   ],
 
   /*
